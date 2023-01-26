@@ -40,12 +40,6 @@ class Feedback extends Component {
 
     }
 
-    // onLeaveFeedback = (name) => {
-    //     this.setState(prevState => {
-    //         return {[name]: prevState[name] + 1}
-    //     })
-    // }
-
 
 
     render() {
@@ -76,20 +70,6 @@ class Feedback extends Component {
           <Notification message="There is no feedback" />
         )}
       </>
-            // <>
-            //     <Section title="Please leave feedback" />
-            //     <FeedbackOptions
-            //         options={this.statePropNames}
-            //         onLeaveFeedback={this.onLeaveFeedback} />
-            //     <h4 className={styles.subTitle}>Statistics</h4>
-            //     <Statistics
-            //         good={good}
-            //         neutral={neutral}
-            //         bad={bad}
-            //         total={total}
-            //         positivePercentage={positivePercentage} />
-                
-            // </>
         )
 
     }
