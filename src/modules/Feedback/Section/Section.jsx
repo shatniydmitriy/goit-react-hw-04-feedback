@@ -3,10 +3,10 @@ import styles from './section.module.css';
 
 const Section = ({ children, title }) => {
   return (
-    <div>
+    <section>
       <h3 className={styles.title}>{title}</h3>
       {children}
-    </div>
+    </section>
   );
 };
 
